@@ -1,0 +1,12 @@
+[versions]
+agp = "8.1.1"
+libsu = "5.2.0"
+kotlin = "1.9.0"
+
+[libraries]
+libsu-core = { module = "com.github.topjohnwu.libsu:core", version.ref = "libsu" }
+libsu-service = { module = "com.github.topjohnwu.libsu:service", version.ref = "libsu" }
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

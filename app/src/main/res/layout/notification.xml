@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:ignore="ContentDescription,HardcodedText">
+
+    <TextView
+        android:id="@+id/tv_orientation"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textAppearance="@android:style/TextAppearance.Material.Notification.Title" />
+
+    <Button
+        android:id="@+id/btn_sensor"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="S" />
+
+    <Button
+        android:id="@+id/btn_full_sensor"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="FS" />
+
+    <Button
+        android:id="@+id/btn_landscape"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="L" />
+
+    <Button
+        android:id="@+id/btn_reverse_landscape"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="RL" />
+
+    <Button
+        android:id="@+id/btn_sensor_landscape"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="SL" />
+
+    <Button
+        android:id="@+id/btn_portrait"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="P" />
+
+    <Button
+        android:id="@+id/btn_reverse_portrait"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="RP" />
+
+    <Button
+        android:id="@+id/btn_sensor_portrait"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="SP" />
+
+    <Button
+        android:id="@+id/btn_unspecified"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="U" />
+</LinearLayout>
